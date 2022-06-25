@@ -65,3 +65,19 @@ html body{
   #listTask{
     height: 40rem;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+  #taskFooter footer{
+    display: flex;
+    justify-content: space-between;
+  }
