@@ -3,6 +3,8 @@ html body {
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+        padding: 0;
+        margin: 0;
 }
 
 #container{
@@ -14,11 +16,10 @@ html body {
 }
 
 #inputaddTask{
-    /* border: solid 1px red; */
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 1.5rem 1.5rem 0rem 1.5rem;
+    margin: 1.5rem 0rem 0rem 1.5rem;
 }
 
 #inputaddTask div:first-child{
@@ -64,11 +65,26 @@ html body {
   }
 
   #listTask{
+    border: solid 1px rebeccapurple;
+    display: flex;
+    flex-direction: column;
     height: 40rem;
-    border: solid 1px red;
   }
+  
+.taskConteiner{
+  color: #fafafa;
+  display: flex;
+  border: solid 1px red;
+  /* justify-content: center; */
+  /*width: 20rem; */
+}
+.taskConteiner div:first-child{
+  border: solid 1px rgb(38, 0, 255);
+  width: 20rem;
+}
+.trashButton{
 
-
+}
 
 
 
@@ -88,4 +104,6 @@ html body {
   #taskFooter footer div:first-child{
     width: 95%;
     text-align: right;
+    padding: 0px;
+    margin: 0px;
   }
