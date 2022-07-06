@@ -50,7 +50,7 @@ function addNovaTarefa(){
 
 }
 
-addNovaTarefa();
+// addNovaTarefa();
 
 function exluirTask(position){
     taskList.splice( position, 1);

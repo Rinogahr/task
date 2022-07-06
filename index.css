@@ -65,13 +65,26 @@ html body {
   }
 
   #listTask{
-    border: solid 1px rebeccapurple;
     display: flex;
     flex-direction: column;
     height: 40rem;
-  }
+    width: 70rem;
+    align-self: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: solid 1px rebeccapurple;
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
+
+.taskItens{
+  color: #fafafa;
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
+  border-width: 0 0 2px;
+}
   
-.taskConteiner{
+/* .taskConteiner{
   color: #fafafa;
   display: flex;
   border: solid 1px red;
@@ -84,7 +97,7 @@ html body {
 }
 .trashButton{
 
-}
+} */
 
 
 
