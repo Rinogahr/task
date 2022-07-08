@@ -139,11 +139,73 @@
 //========================================
         //FILTER = O FILTER SERVE PRA FILTRAR ALGUMA COISA DENTRO DE UMA ARRAY
 
-let palavras = ["Rodrigo", "Zaminha", "João Pedro", "José Lukas", "Aula de Programação" , "João Pedro"];
+// let palavras = ["Rodrigo", "Zaminha", "João Pedro", "José Lukas", "Aula de Programação" , "João Pedro"];
 
-let resultado = palavras.filter( (item) => {
-        // return item.length >= 5;
-        return item === "João Pedro";
-});
+// let resultado = palavras.filter( (item) => {
+//         // return item.length >= 5;
+//         return item === "João Pedro";
+// });
 
-console.log(resultado);
+// console.log(resultado);
+
+
+//========================================
+        //FUNCOES ANONIMAS (ARROW FUNCTION)
+
+/*
+ () => {}
+
+ 1- Os parênteses, que é por onde a função recebe os argumentos ( assim como na funções tredicionais);
+ 2- "set" => - responsavel pelo nome "arrow"
+ 3- E as chaves: o bloco de código que representa o corpo da função.
+
+*/
+
+// function somar(a,b){
+//         let total = a + b;
+//         return console.log(total);        
+// }
+
+// somar(13,58);
+
+// let soma = (vl1,vl2) => {
+//         let total = vl1 * vl2;
+//         return console.log(total);
+// }
+
+// soma(18,29);
+
+
+//========================================
+        //INCLUDES (devolve um booleano true ou false como resposta de acordo com o resultado. (o inclue é caseSencitive ou seja reconhece letras maiusculas e menuscolas))
+
+// let nome = ["Rodrigo", "Italo", "Diogo"];
+
+// console.log(nome.includes("Zaminha")); // resultado false
+// console.log(nome.includes("Rodrigo")); // resultado true
+
+// if(nome.includes("Diogo")){ //EXEMPLO MOSTRANDO TRUE
+//         console.log("Está na lista");
+// }else{
+//         console.log("Não está na lista");
+
+// }
+// if(nome.includes("diogo")){ //EXEMPLO MOSTRANDO FALSE
+//         console.log("Está na lista");
+// }else{
+//         console.log("Não está na lista");
+
+// }
+
+        // STARTWITH (Verifica se algum texto começa com o que vc passar e devolve um booleano true ou false. (o startWith  é caseSencitive ou seja reconhece letras maiusculas e menuscolas)), 
+
+// let nome = "Rodrigo";
+
+// console.log(nome.startsWith("Rod")); //retorna true
+
+
+        //ENDSWITH (Verifica se algum texto termina com o que vc passar e devolve um booleano true ou false. (o endWith é caseSencitive ou seja reconhece letras maiusculas e menuscolas))
+
+let nome = "Teste Beta";
+
+console.log(nome.endsWith("ta")); //retorna true
