@@ -64,14 +64,42 @@
 // console.log(dados);
 
 
-function novoUsu(info){
-    let data = {
-        ...info,
-        status: "ATIVO",
-        dataInicio: "05/07/2022",
-        id: 1
-    }
-    console.log(data)
-}
+// function novoUsu(info){
+//     let data = {
+//         ...info,
+//         status: "ATIVO",
+//         dataInicio: "05/07/2022",
+//         id: 1
+//     }
+//     console.log(data)
+// }
 
-novoUsu({ nome: "João Pedro", sobreNome: "Maciel", idade: 13});
+// novoUsu({ nome: "João Pedro", sobreNome: "Maciel", idade: 13});
+
+//========================================
+        //REST Operatior
+
+// function convidados(...nomes) {
+//     console.log("SEJAM BEM VINDOS TODOS OS CONVIDADOS");
+//     console.log(nomes);
+// };
+
+// convidados("Rodrigo", "Zaminha", "João", "Lukinhas");
+
+// function sorteador(...numeros){
+//     console.log(numeros);
+    
+//     const numeroGerado = Math.floor(Math.random() * numeros.length);
+
+//     console.log(numeroGerado);
+
+//     console.log(numeros[numeroGerado]);
+// }
+// sorteador(10,25,95,13,11,17);
+
+//========================================
+        //MAP = PERCORRER TODO O ARRAY
+
+        let lista = ["Rodrigo","Zaminha","João Pedr", "José Lukas"];
+
+        lista.map()
