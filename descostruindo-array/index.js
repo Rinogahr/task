@@ -100,6 +100,50 @@
 //========================================
         //MAP = PERCORRER TODO O ARRAY
 
-        let lista = ["Rodrigo","Zaminha","João Pedr", "José Lukas"];
+        // let lista = ["Rodrigo","Zaminha","João Pedr", "José Lukas"];
 
-        lista.map()
+        // lista.map((item, index) =>{
+        //         console.log('mostrando o resultado que tem no item :>> ', item, 
+        //         "e essa é a possição de cada item mas utilizando o index ::>", index);
+        // })
+
+//========================================
+        //REDUCE = O REDUCE BUSCA REDUZIR UM ARRAY
+
+// let numeros = [5,3,2,1,7];
+
+// let total = numeros.reduce( (acumulador, numero, indice, original) =>{
+//         console.log(`${acumulador} - total ate o momento`);
+//         console.log(`${numero} - valor atual`);
+//         console.log(`${indice} - indice atual`);
+//         console.log(`${original} - array original`);
+//         console.log(`==================================`);
+//         return acumulador += numero
+// })
+
+// console.log('TOTAL DO REDUCE É :>> ', total);
+
+
+//========================================
+        //FIND = O FIND E PRA FASZER UMA  BUSCA EM UM ARRAY
+
+        // let listagem = [5, 3, "Rodrigo", 2, "Zaminha"];
+
+        // let buscar = listagem.find( (item) => {
+        //     if(item === "Zaminha") return console.log("ITEM ENCONTRADO COM SUCESSO !"); 
+        // });
+
+        // console.log(buscar);
+
+
+//========================================
+        //FILTER = O FILTER SERVE PRA FILTRAR ALGUMA COISA DENTRO DE UMA ARRAY
+
+let palavras = ["Rodrigo", "Zaminha", "João Pedro", "José Lukas", "Aula de Programação" , "João Pedro"];
+
+let resultado = palavras.filter( (item) => {
+        // return item.length >= 5;
+        return item === "João Pedro";
+});
+
+console.log(resultado);
