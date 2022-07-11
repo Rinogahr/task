@@ -206,6 +206,10 @@
 
         //ENDSWITH (Verifica se algum texto termina com o que vc passar e devolve um booleano true ou false. (o endWith é caseSencitive ou seja reconhece letras maiusculas e menuscolas))
 
-let nome = "Teste Beta";
+// let nome = "Teste Beta";
 
-console.log(nome.endsWith("ta")); //retorna true
+// console.log(nome.endsWith("ta")); //retorna true
+
+
+
+
