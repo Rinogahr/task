@@ -125,7 +125,7 @@
 
 
 //========================================
-        //FIND = O FIND E PRA FASZER UMA  BUSCA EM UM ARRAY
+        //FIND = O FIND É PRA FAZER UMA  BUSCA EM UM ARRAY
 
         // let listagem = [5, 3, "Rodrigo", 2, "Zaminha"];
 
