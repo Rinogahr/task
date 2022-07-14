@@ -14,7 +14,7 @@ console.log("ESSA É A LISTA SEM O ITEM MOUSE ::> ", newProdutos);
         let findProduto = produtos.find( (item) => {
             if(item === "Computador") {
                 return console.log("ITEM ENCONTRADO COM SUCESSO !", produtos[0]);
-                brack;
+                
             }else{
                return console.log("ITEM NÃO ENCONTRADO DESEJA ADICIONAR A LISTA ?"); 
             }
